@@ -9,3 +9,6 @@ print(products)
 
 print(products[0][0])
 print(products[1][1])
+
+for p in products: #p=小清單
+	print(p[0], '的價格是', p[1])
